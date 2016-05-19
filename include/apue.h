@@ -13,6 +13,7 @@
 #ifndef TIOCGWINSZ
 #include<sys/ioctl.h>
 #endif
+#include<fcntl.h>
 #include<stdio.h>
 #include<stdlib.h>
 #include<stddef.h>

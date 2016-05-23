@@ -23,7 +23,7 @@ int main(int argc, char** argv) {
     int n;
     char buffer[1];
     if (argc <= 2) {
-        err_sys("bad arguments,it should be run like copyfile arg1 arg2\n");
+        err_sys(" arguments,it should be run like copyfile arg1 arg2\n");
         return 1;
     }
     const char * srcFileName = argv[1];
